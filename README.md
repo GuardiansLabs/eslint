@@ -1,1 +1,1 @@
-# eslint
+# GuardiansLabs eslint rules
