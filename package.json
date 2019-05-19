@@ -1,0 +1,32 @@
+{
+  "name": "guardians-labs-eslint-config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "guardians-labs <dev@guardians-labs.com>",
+  "description": "Guardians Labs eslint configuration",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GuardiansLabs/eslint.git"
+  },
+  "engine": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "contributors": [
+    {
+      "name": "Mustafa Hussain <mustafah15>",
+      "email": "mustafa.hussain93@gmail.com"
+    }
+  ],
+  "main": "./index",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "docker": "docker-compose build --no-cache && docker-compose run node"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3.5.0 < 6"
+  }
+}
