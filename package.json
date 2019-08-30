@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-guardians-labs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "guardians-labs <dev@guardians-labs.com>",
   "description": "Guardians Labs eslint configuration",
@@ -24,9 +24,9 @@
     "docker": "docker-compose build --no-cache && docker-compose run node"
   },
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^6.2.2"
   },
   "peerDependencies": {
-    "eslint": ">= 3.5.0 < 6"
+    "eslint": ">= 4.5.0 < 7"
   }
 }
